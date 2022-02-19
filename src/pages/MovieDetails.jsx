@@ -17,7 +17,7 @@ export function MovieDetails() {
             setMovie(data);
             setIsLoading(false);
         });
-    }, [])
+    }, [movieId])
 
     if (isLoading) {
         return <Spinner />

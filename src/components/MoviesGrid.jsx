@@ -3,7 +3,6 @@ import styles from './MovieGrid.module.css'
 import { useEffect, useState } from 'react';
 import { get } from '../utils/httpClient';
 import { Spinner } from './Spinner';
-import { useQuery } from '../hooks/useQuery';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { NoResult } from './NoResult';
 
